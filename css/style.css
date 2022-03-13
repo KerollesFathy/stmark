@@ -2469,7 +2469,11 @@ html {
 
 .text {
 
-	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	background: -webkit-gradient(linear, left top, right top, from(#30CFD0), to(#330867)) ;
+
+	background: -o-linear-gradient(left, #30CFD0 0%, #330867 100%) ;
+
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%) ;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
   
